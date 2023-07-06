@@ -1,0 +1,92 @@
+/* Reset default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #777;
+}
+
+section {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+.content-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  text-align: left;
+}
+
+.content-text {
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-img {
+}
+
+.content-text-header {
+	color: black;
+}
+
+.content-text-date {
+	color: blue;
+}
+
+.content-text-location {
+	color: red;
+}
+
+.content-text-description {
+	color: grey;
+}
+
