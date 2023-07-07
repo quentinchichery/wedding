@@ -9,7 +9,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f7f7f7;
+  background-color: #F2E1C2;
 }
 
 .container {
@@ -18,14 +18,8 @@ body {
 }
 
 header {
-  background-color: #fff;
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 10px;
 }
 
 nav ul {
@@ -40,23 +34,17 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #176FA6;
 }
 
 nav ul li a:hover {
-  color: #777;
+  color: #F29472;
 }
 
 section {
-  background-color: #fff;
   padding: 40px 0;
   text-align: center;
 }
-
-h2 {
-  margin-bottom: 20px;
-}
-
 
 .content-box {
   display: grid;
@@ -67,7 +55,7 @@ h2 {
 
 .content-text {
   padding: 20px;
-  background-color: #f7f7f7;
+  background-color: #176FA6;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -75,18 +63,36 @@ h2 {
 }
 
 .content-text-header {
-	color: black;
+	color: #034AA6;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .content-text-date {
-	color: blue;
+	color: #F25A38;
+  font-style: italic;
+  font-size: 40px;
 }
 
 .content-text-location {
-	color: red;
+	color: #034AA6;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .content-text-description {
-	color: grey;
+	color: #176FA6;
+  font-size: 20px;
 }
 
+.index-text-date {
+  color: #F25A38;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.index-text-header {
+  color: #034AA6;
+  font-weight: bold;
+  font-size: 50px;
+}
