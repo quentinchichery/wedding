@@ -34,11 +34,24 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #40513B;
+  color: black;
 }
 
 nav ul li a:hover {
-  color: #9DC08B;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  color: black;
 }
 
 section {
@@ -59,40 +72,40 @@ section {
 }
 
 .content-img {
-  max-width: 300px;
+  width: auto;
 }
 
 .content-text-header {
-	color: #40513B;
+	color: black;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 75px;
 }
 
 .content-text-date {
-	color: #609966;
+	color: black;
   font-style: italic;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .content-text-location {
-	color: #609966;
+	color: black;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .content-text-description {
-	color: #9DC08B;
+	color: black;
   font-size: 20px;
 }
 
 .index-text-date {
-  color: #609966;
+  color: black;
   font-style: italic;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .index-text-header {
-  color: #40513B;
+  color: black;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 75px;
 }
