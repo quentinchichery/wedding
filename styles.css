@@ -8,7 +8,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input {
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
   background-color: beige;
 }
 
@@ -54,6 +53,10 @@ ul li a:hover {
   color: black;
 }
 
+ul {
+  list-style: none;
+}
+
 section {
   padding: 40px 0;
   text-align: center;
@@ -64,20 +67,23 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
   text-align: left;
-  height: 100vh;
 }
 
 .content-text {
   padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .content-img {
-  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .content-text-header {
 	color: black;
-  font-weight: bold;
   font-size: 75px;
 }
 
@@ -106,6 +112,5 @@ section {
 
 .index-text-header {
   color: black;
-  font-weight: bold;
   font-size: 75px;
 }
