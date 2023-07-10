@@ -9,7 +9,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #F2E1C2;
+  background-color: #EDF1D6;
 }
 
 .container {
@@ -34,11 +34,11 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #176FA6;
+  color: #40513B;
 }
 
 nav ul li a:hover {
-  color: #F29472;
+  color: #9DC08B;
 }
 
 section {
@@ -51,47 +51,48 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
   text-align: left;
+  height: 100vh;
 }
 
 .content-text {
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .content-img {
+  max-width: 300px;
 }
 
 .content-text-header {
-	color: #034AA6;
+	color: #40513B;
   font-weight: bold;
   font-size: 50px;
 }
 
 .content-text-date {
-	color: #F25A38;
+	color: #609966;
   font-style: italic;
   font-size: 40px;
 }
 
 .content-text-location {
-	color: #034AA6;
+	color: #609966;
   font-weight: bold;
   font-size: 35px;
 }
 
 .content-text-description {
-	color: #176FA6;
+	color: #9DC08B;
   font-size: 20px;
 }
 
 .index-text-date {
-  color: #F25A38;
+  color: #609966;
   font-style: italic;
   font-size: 35px;
 }
 
 .index-text-header {
-  color: #034AA6;
+  color: #40513B;
   font-weight: bold;
   font-size: 50px;
 }
