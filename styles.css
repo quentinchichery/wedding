@@ -98,17 +98,17 @@ img {
 }
 
 .content-text-header {
-  font-size: 75px;
+  font-size: 50px;
 }
 
 .content-text-date {
   font-style: italic;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .content-text-location {
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 55px;
+  color: #c9a658;
 }
 
 .content-text-description {
