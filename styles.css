@@ -17,8 +17,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input {
 }
 
 @font-face {
-  font-family: SilkSerif;
-  font-weight: italic;
+  font-family: SilkSerifItalic;
+  font-style: italic;
   src: url("font/SilkSerifRegularItalic.otf") format("opentype");
 }
 
@@ -123,4 +123,5 @@ img {
 .index-text-header {
   color: #c9a658;
   font-size: 55px;
+  font-weight: bold;
 }
