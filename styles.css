@@ -5,10 +5,28 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: SilkSerif;
+  src: url("font/SilkSerifRegular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SilkSerif;
+  font-weight: bold;
+  src: url("font/SilkSerifBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SilkSerif;
+  font-weight: italic;
+  src: url("font/SilkSerifRegularItalic.otf") format("opentype");
+}
+
 /* Global styles */
 body {
-  font-family: 'Cormorant Garamond', serif;
-  background-color: beige;
+  font-family: 'SilkSerif', serif;
+  background-color: #fcf4e9;
+  color: #ce5d40;
 }
 
 .container {
@@ -80,34 +98,29 @@ img {
 }
 
 .content-text-header {
-	color: black;
   font-size: 75px;
 }
 
 .content-text-date {
-	color: black;
   font-style: italic;
   font-size: 30px;
 }
 
 .content-text-location {
-	color: black;
   font-weight: bold;
   font-size: 30px;
 }
 
 .content-text-description {
-	color: black;
   font-size: 20px;
 }
 
 .index-text-date {
-  color: black;
   font-style: italic;
-  font-size: 30px;
+  font-size: 75px;
 }
 
 .index-text-header {
-  color: black;
-  font-size: 75px;
+  color: #c9a658;
+  font-size: 55px;
 }
