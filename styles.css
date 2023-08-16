@@ -23,8 +23,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input {
 }
 
 @font-face {
-  font-family: Modesfa;
-  src: url("font/Modesfa.otf") format("opentype");
+  font-family: Augify;
+  src: url("font/Augify.otf") format("opentype");
 }
 
 /* Global styles */
@@ -92,10 +92,12 @@ section {
   text-align: left;
 }
 
-.content-border {
+.content-grid-border {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 10px;
+  padding: 40px;
+  margin: 40px;
 }
 
 .content-text {
@@ -106,21 +108,24 @@ section {
 .content-border {
   padding: 20px;
   margin: 0;
-  border: solid #5B6DCD 10px;
   background-color: #ce5d40;
   color: #fcf4e9;
   font-size: 35px;
-  text-decoration: none;
 }
 
-.content-border a:hover {
+.content-border a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.content-border:hover {
   background-color: #c9a658;
   color: #fcf4e9;
 }
 
 .content-img {
-  padding: 5px;
-  margin: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 img {
@@ -134,7 +139,7 @@ img {
 
 .content-text-date {
   font-size: 35px;
-  font-family: 'Modesfa', serif;
+  font-family: 'Augify', serif;
 }
 
 .content-text-location {
@@ -148,7 +153,7 @@ img {
 
 .index-text-date {
   font-size: 75px;
-  font-family: 'Modesfa', serif;
+  font-family: 'Augify', serif;
 }
 
 .index-text-header {
