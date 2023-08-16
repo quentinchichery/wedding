@@ -109,23 +109,28 @@ section {
   padding: 20px;
   margin: 0;
   background-color: #ce5d40;
-  color: #fcf4e9;
   font-size: 35px;
 }
 
 .content-border a {
   text-decoration: none;
   text-align: center;
+  color: #fcf4e9;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .content-border:hover {
   background-color: #c9a658;
+}
+
+.content-border a:hover {
   color: #fcf4e9;
 }
 
 .content-img {
-  max-width: 100%;
-  height: auto;
+  overflow: hidden;
 }
 
 img {
@@ -140,6 +145,7 @@ img {
 .content-text-date {
   font-size: 35px;
   font-family: 'Augify', serif;
+  color: #c9a658;
 }
 
 .content-text-location {
