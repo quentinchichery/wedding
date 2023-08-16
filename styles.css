@@ -17,9 +17,14 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input {
 }
 
 @font-face {
-  font-family: SilkSerifItalic;
+  font-family: SilkSerif;
   font-style: italic;
   src: url("font/SilkSerifRegularItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Modesfa;
+  src: url("font/Modesfa.otf") format("opentype");
 }
 
 /* Global styles */
@@ -51,11 +56,11 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: #ce5d40;
 }
 
 nav ul li a:hover {
-  color: black;
+  color: #c9a658;
 }
 
 nav ul {
@@ -64,11 +69,11 @@ nav ul {
 
 ul li a {
   text-decoration: none;
-  color: black;
+  color: #ce5d40;
 }
 
 ul li a:hover {
-  color: black;
+  color: #c9a658;
 }
 
 ul {
@@ -87,8 +92,34 @@ section {
   text-align: left;
 }
 
+.content-border {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
 .content-text {
   padding: 20px;
+  margin: 0;
+}
+
+.content-border {
+  padding: 20px;
+  margin: 0;
+  border: solid #5B6DCD 10px;
+  background-color: #ce5d40;
+  color: #fcf4e9;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.content-border a:hover {
+  background-color: #c9a658;
+  color: #fcf4e9;
+}
+
+.content-img {
+  padding: 5px;
   margin: 0;
 }
 
@@ -98,16 +129,16 @@ img {
 }
 
 .content-text-header {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .content-text-date {
-  font-style: italic;
   font-size: 35px;
+  font-family: 'Modesfa', serif;
 }
 
 .content-text-location {
-  font-size: 55px;
+  font-size: 40px;
   color: #c9a658;
 }
 
@@ -116,8 +147,8 @@ img {
 }
 
 .index-text-date {
-  font-style: italic;
   font-size: 75px;
+  font-family: 'Modesfa', serif;
 }
 
 .index-text-header {
