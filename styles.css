@@ -157,8 +157,8 @@ img {
 
 .content-text-description a {
   text-decoration: none;
-  color: #ce5d40;
-  font-weight: bold;
+  /* color: #ce5d40;
+  font-weight: bold; */
 }
 
 .index-text-date {
