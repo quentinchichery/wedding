@@ -89,7 +89,6 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 20px;
-  text-align: left;
   overflow: hidden;
 }
 
@@ -162,11 +161,13 @@ img {
 }
 
 .index-text-date {
+  text-align: left;
   font-size: 75px;
   font-family: 'Augify', serif;
 }
 
 .index-text-header {
+  text-align: left;
   color: #c9a658;
   font-size: 55px;
   font-weight: bold;
